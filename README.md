@@ -1,5 +1,5 @@
 # TensorFlow 2.0
- TensorFlow notebooks from Imperial COllege London Tensorflow Courses.
+ TensorFlow notebooks from Imperial College London Tensorflow Courses.
 
 ## Course 1  
  <ins>Key Ideas</ins>  
