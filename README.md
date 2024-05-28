@@ -8,7 +8,7 @@
  Saving and loading models  
  Develop model to predict house numbers
 
-## Course 2  
+## Course 2    
 <ins>Key Ideas</ins> 
 The Keras Functional API  
 The Data Pipeline  
