@@ -1,4 +1,4 @@
-## Course 1: Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
+## Course 1: Introduction to TensorFlow
 
 ### Learning Objectives
 - Understand the basics of TensorFlow.
