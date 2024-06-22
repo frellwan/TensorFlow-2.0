@@ -1,41 +1,45 @@
 # TensorFlow 2.0 Course 2 Repository
 
-Welcome to the TensorFlow 2.0 Course 2 repository. This repository contains assignments and tutorials for each week of Course 2, focusing on advanced topics in TensorFlow 2.0.
-
-## Week 1: Introduction to TensorFlow 2.0 Basics
-
-### Assignments
-
-- **Assignment 1: Neural Network Basics**
-  - Implementing a basic neural network using TensorFlow 2.0.
-  
-  The assignment covers:
-  - Loading and preprocessing data using TensorFlow Datasets.
-  - Building a neural network model with fully connected layers using the Keras API.
-  - Compiling the model with appropriate loss function and optimizer.
-  - Training the model on the dataset and evaluating its performance.
-
-### Tutorials
-
-- **Tutorial 1: Introduction to TensorFlow 2.0**
-  - Basics of TensorFlow 2.0, tensor operations, building simple neural networks using Keras, training models.
-  - Building and training CNNs using TensorFlow 2.0, convolutional layers, pooling layers, image classification.
-  - Introduction to RNNs in TensorFlow 2.0, sequence processing, applications like text generation and sentiment analysis.
-
-## Week 2: Advanced Topics in TensorFlow 2.0
+Welcome to the TensorFlow 2.0 Course 2 repository. This repository contains assignments and tutorials for each week of Course 2, focusing on the keras functional API.
+### Key Points
+  - Multiple input and output layers
+  - Tensors and variables
+  - Accessing model layers
+  - Freezing layers (to avoid training)
+  - Keras datasets
+  - Dataset generators
+  - Image augmentation
+  - The Dataset class and training with Datasets
+  - Padding and masking sequence data
+  - The Embedding layer
+  - The Embedding Projector
+  - Recurrent neural network layers
+  - Stacked RNNs and the Bidirectional wrapper
+  - Model subclassing
+  - Custom layers
+  - Automatic differentiation
+  - Custom training loops
+  - tf.function decorator
 
 ### Assignments
 
-- **Assignment 2: Transfer Learning with Pretrained Models**
-  - Implementing transfer learning using pretrained models in TensorFlow 2.0.
+- **Assignment 1: Transfer Learning**
+  - Use a pretrained model (MobileNetV2.h5) to classify cats and dogs. Freeze  
 
-  The assignment covers:
-  - Loading and fine-tuning pretrained models (e.g., VGG16, ResNet) using Keras Applications.
-  - Adapting pretrained models for new tasks by modifying the output layers.
-  - Training the adapted model and evaluating its performance on a new dataset.
+- **Assignment 2: Data Pipeline with Keras and tf.data**
+  - implement a data processing pipeline using tools from both Keras and the tf.data module.
+  - Use the ImageDataGenerator class in the tf.keras module to feed a network with training and test images from a local directory containing a subset of the LSUN dataset, and train the model both with and without data augmentation.
+  - Use the map and filter functions of the Dataset class with the CIFAR-100 dataset to train a network to classify a processed subset of the images.
 
-### Tutorials
+- **Assignment 3: Language model for the Shakespeare dataset**
+  - Use the text preprocessing tools and RNN models to build a character-level language model. 
+  - Train the model on the works of Shakespeare, and use the network to generate text.
+ 
 
-  - Using transfer learning with TensorFlow 2.0, adapting pretrained models for new tasks.
-  - Basics of NLP using TensorFlow 2.0, text preprocessing, building RNNs and LSTM networks for NLP tasks.
-  - Introduction to autoencoders and GANs in TensorFlow 2.0, building and training generative models.
+- **Assignment 4: Residual network**
+  - Use the model subclassing API together with custom layers to create a residual network architecture.
+  - Train the custom model on the Fashion-MNIST dataset by using a custom training loop and implementing the automatic differentiation tools in Tensorflow to calculate the gradients for backpropagation.
+
+- **Assignment 5: Nueral Translation Model**
+  - neural network that translates from English to German.
+  - Use concepts from throughout this course 2, including building flexible model architectures, freezing layers, data processing pipeline and sequence modelling.
