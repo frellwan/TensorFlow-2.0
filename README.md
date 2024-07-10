@@ -3,7 +3,6 @@
 TensorFlow notebooks from Imperial College London TensorFlow Courses.
 
 ## Course 1
-
 ### Key Ideas
 - The Sequential model API
 - Validation, Regularization, and Callbacks
@@ -11,7 +10,6 @@ TensorFlow notebooks from Imperial College London TensorFlow Courses.
 - Develop model to predict house numbers
 
 ## Course 2
-
 ### Key Ideas
 - The Keras Functional API
 - The Data Pipeline
