@@ -9,7 +9,6 @@ TensorFlow notebooks from Imperial College London TensorFlow Courses.
 - Saving and loading models
 - Develop model to predict house numbers
 
-
 ## Course 2
 ### Key Ideas
 - The Keras Functional API
