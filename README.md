@@ -8,7 +8,7 @@ TensorFlow notebooks from Imperial College London TensorFlow Courses.
 - Validation, Regularization, and Callbacks
 - Saving and loading models
 
-### Develop model to predict house numbers
+Assignemnt - Develop model to predict house numbers
 
 ## Course 2
 ### Key Ideas
@@ -17,7 +17,7 @@ TensorFlow notebooks from Imperial College London TensorFlow Courses.
 - Sequence Modeling
 - Model subclassing and custom training loops
 
-### Develop a custom model to translate from English to German
+ Assignment - Develop a custom model to translate from English to German
 
 
 
