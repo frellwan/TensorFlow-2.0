@@ -7,7 +7,8 @@ TensorFlow notebooks from Imperial College London TensorFlow Courses.
 - The Sequential model API
 - Validation, Regularization, and Callbacks
 - Saving and loading models
-- Develop model to predict house numbers
+
+### Develop model to predict house numbers
 
 ## Course 2
 ### Key Ideas
@@ -15,7 +16,8 @@ TensorFlow notebooks from Imperial College London TensorFlow Courses.
 - The Data Pipeline
 - Sequence Modeling
 - Model subclassing and custom training loops
-- Develop a custom model to translate from English to German
+
+### Develop a custom model to translate from English to German
 
 
 
